@@ -1,0 +1,35 @@
+TDD --> whenever you write a program you write respective test case for it too
+
+calculator --> addition,subration etc
+
+addition(20,30) --> 50
+addition(10.5,10.5) --> 21
+
+Unit test cases --> instead of manullly testing the unit funtionality we automate it with desired inputs and expected output
+
+take 20 and 30 in addition function and expect/assert that output is 50 in this case.
+
+TDD says writing test cases parrallel to devlopment.
+
+new feature in app --> change your test cases also.
+
+TDD --> 
+1. Adding a new test case
+new feature --> new test cases
+2. Run all test.
+so that it should not break other.
+3. simplest approach to the code that will pass test case
+4. All the test cases should pass.
+5. Refactore.
+
+Rules
+1. no duplicates
+2. standard names --> Calculator --> TestCalculator
+@Test
+
+
+
+
+
+
+
