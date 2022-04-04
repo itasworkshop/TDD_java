@@ -13,6 +13,16 @@ class Calculator{
         int result = this.a + this.b;
         return result;
     }
+
+    public int subtraction(){
+        int result = this.a - this.b;
+        return result;
+    }
+
+    public int division(int x,int y){
+        int result = x / y;
+        return result;
+    }
 }
 
 public class CalculatorApp {
